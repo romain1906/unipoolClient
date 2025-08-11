@@ -1,0 +1,22 @@
+<div class="login-container">
+  <mat-card class="login-card">
+    <mat-card-title class="login-title">🎱 Connexion UniPool</mat-card-title>
+    <mat-card-content>
+      <form>
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Email</mat-label>
+          <input matInput type="email" required  value="NOM@gmail.com"/>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Mot de passe</mat-label>
+          <input matInput type="password" required VALUE="pwd" />
+        </mat-form-field>
+
+        <button mat-raised-button color="primary" class="full-width login-button" (click)="onLogin()">
+          Se connecter
+        </button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

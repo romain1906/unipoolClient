@@ -1,0 +1,49 @@
+/* Conteneur du login - fond de fond sobre avec dégradé */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #4CAF50, #388E3C);
+  padding: 1rem;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #F4F7F6; /* Fond très clair et moderne */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); /* Ombres légères pour donner de la profondeur */
+}
+
+/* Titre central avec une touche de couleur moderne */
+.login-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #388E3C; /* Vert plus foncé pour un côté classe */
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Formulaire pleine largeur avec espacement aéré */
+.full-width {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+/* Bouton avec un vert plus profond et style élégant */
+.login-button {
+  background-color: #388E3C;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.8rem;
+  transition: background-color 0.3s ease;
+  border-radius: 6px;
+}
+
+.login-button:hover {
+  background-color: #2E7D32; /* Vert plus foncé au survol */
+}
